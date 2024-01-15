@@ -1,0 +1,8 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.input {
+  display: inline !important;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}

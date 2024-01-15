@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Sender App</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="mb-3 mt-5">
+                        <h4>Send a mail to your preferred user</h4>
+                    </div>
+                    <form method="POST" action="/email/send">
+                        <div class="form-group mb-3" >
+                                <input name="email" placeholder="Enter Email" class="form-control" >
+                        </div>
+                        <div>
+                            <button class="btn btn-secondary">Send Mail</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-4"></div>
+              
+            </div>
+    </section>
+</body>
+</html>
